@@ -46,5 +46,4 @@ for fn in os.listdir('./cogs'):
 		bot.load_extension(f"cogs.{fn[:-3]}")
 
 
-
-bot.run('MTA3MDM3NjE5NzExODIzNDc0NQ.GYCrPf._u77nupEip4van_xtGd2y3s1O5r0W0If6fjrl4')
+bot.run(os.environ["DISCORD_TOKEN"])
